@@ -1,7 +1,12 @@
 // _base.scss
 // ==============
 
-.home-video, .videoBg {
+.homeSlider {
+	position:relative;
+	height: auto;
+	width: auto;
+}
+.homeVideo, .videoBg, .homeSlider {
 	position: fixed;
 	right: 0;
 	bottom: 0;
@@ -13,4 +18,19 @@
 	background-size: cover;
 	pointer-events:none;
 }
+
+.overlay {
+	position:relative;
+}
+
+.logo {
+	position:absolute;
+	width:200px;
+	left:50%;
+	top:50%;
+	@include transform-origin(50% 50%);
+	@include translate(-50%, -50%); 
+}
+
+
 
