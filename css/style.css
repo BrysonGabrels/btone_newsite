@@ -29,9 +29,9 @@
 
 .logo {
   position: absolute;
-  width: 200px;
+  width: 2000px;
   left: 50%;
-  top: 50%;
+  top: 48%;
   -moz-transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -42,11 +42,17 @@
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.c1r1 {
+  fill: #000000;
 }
 
 @media (max-width: 767px) {
   .homeSlider {
-    background: url("../img/home-video-bg.jpg") center center/cover no-repeat;
+    background: url("../img/bg-video-still2.jpg") center center/cover no-repeat;
   }
 
   .homeVideo {

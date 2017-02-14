@@ -32,11 +32,17 @@
 
 .logo {
 	position:absolute;
-	width:200px;
+	width:2000px;
 	left:50%;
-	top:50%;
+	top:48%;
 	@include transform-origin(50% 50%);
 	@include translate(-50%, -50%); 
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.c1r1 {
+	fill:#000000;
 }
 
 
