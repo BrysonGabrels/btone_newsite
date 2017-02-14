@@ -26,9 +26,7 @@ if (env === 'development') {
 }
 
 coffeeSources = ['components/coffee/tagline.coffee'];
-jsSources = [
-	'components/scripts/*.js'
-];
+jsSources = ['components/scripts/*.js'];
 sassSources = ['components/sass/style.scss'];
 htmlSources = [outputDIR + '*.html'];
 jsonSources = [outputDIR + 'js/*.json']

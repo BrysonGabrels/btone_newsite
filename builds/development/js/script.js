@@ -1,5 +1,32 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+//Scrolling SVG Animation.js
+
+
 $ = require('jquery');
+
+var logo = $('.logo');
+
+$(window).scroll(function() {
+	var pos = $(window).scrollTop();
+	var opacity = 1 - (pos / 1000);
+	$('.testing').text("p" + opacity);
+	
+
+	logo.css({'opacity': opacity});
+
+	if( opacity > '1') {
+		logo.css({'opacity': 1});
+	} else if (opacity < '0') {
+		logo.css({'opacity':0});
+	}
+
+	
+
+
+
+});
+
+
 
 
 function homeVid() {

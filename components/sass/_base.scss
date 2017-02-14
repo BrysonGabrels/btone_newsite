@@ -2,6 +2,7 @@
 // ==============
 
 .homeSlider {
+	display:block;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -14,6 +15,7 @@
 
 
 .homeVideo {
+	display:block;
 	position:absolute;
 	top: 50%;
 	left: 50%;
@@ -23,11 +25,6 @@
 	min-height: 100%;
 	@include translate(-50%, -50%);
 
-}
-
-
-.overlay {
-	position:relative;
 }
 
 .logo {
@@ -41,9 +38,26 @@
 	padding-right:15px;
 }
 
-.c1r1 {
-	fill:#000000;
+.section2 {
+	display:block;
+	height:2000px;
+	width:100%;
+	background-color: rgba(0, 0, 0, .5);
+	margin-top:100vh;
 }
 
+#logoSvg {
+	position: absolute;
+	width:300px;
+	left:50%;
+	top:50%;
+	@include transform-origin(50% 50%);
+	@include translate(-50%, -50%); 
+	
+}
 
+.logowrap {
+	position:relative;
+	height:600px;
+}
 
