@@ -7,7 +7,7 @@ var logo = $('.logo');
 
 $(window).scroll(function() {
 	var pos = $(window).scrollTop();
-	var opacity = 1 - (pos / 1000);
+	var opacity = 1 - (pos / 600);
 	$('.testing').text("p" + opacity);
 	
 
@@ -18,9 +18,5 @@ $(window).scroll(function() {
 	} else if (opacity < '0') {
 		logo.css({'opacity':0});
 	}
-
-	
-
-
 
 });
