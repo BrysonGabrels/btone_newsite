@@ -2,22 +2,29 @@
 // ==============
 
 .homeSlider {
-	position:relative;
-	height: auto;
-	width: auto;
-}
-.homeVideo, .videoBg, .homeSlider {
 	position: fixed;
+	top: 0;
 	right: 0;
 	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -100;
+	
+}
+
+
+.homeVideo {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	width:auto;
+	height:auto;
 	min-width: 100%;
 	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -100;
-	background-size: cover;
-	pointer-events:none;
+	@include translate(-50%, -50%);
+
 }
+
 
 .overlay {
 	position:relative;

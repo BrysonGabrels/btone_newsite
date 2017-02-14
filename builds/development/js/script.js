@@ -1,10 +1,32 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+$ = require('jquery');
+
+
 function homeVid() {
 	$('.videoBg').fadeOut();
 }
 
 
 setTimeout(homeVid, 5000);
+
+//$( window ).resize(function() {
+//	var width = $(window).width();
+//	var height = $(window).height();
+//	console.log(height);
+//	$('.homeVideo').css("width", width + "px");
+//	$('.homeVideo').css("height", height + "px");
+//
+//	if((width/height) >= ($('.homeVideo').width())/ $('.homeVideo').height()) {
+//		console.log("fuckin a");
+//	} else {
+//		console.log("fuckin b");
+//	}
+//
+//});
+
+
+
+
 var pixgrid = function() {
     function centerImage(theImage) {
         var myDifX = (window.innerWidth - theImage.width) / 2, myDifY = (window.innerHeight - theImage.height) / 2;

@@ -1,20 +1,26 @@
 .homeSlider {
-  position: relative;
-  height: auto;
-  width: auto;
-}
-
-.homeVideo, .videoBg, .homeSlider {
   position: fixed;
+  top: 0;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.homeVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: auto;
   height: auto;
-  z-index: -100;
-  background-size: cover;
-  pointer-events: none;
+  min-width: 100%;
+  min-height: 100%;
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .overlay {
@@ -36,4 +42,14 @@
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  .homeSlider {
+    background: url("../img/home-video-bg.jpg") center center/cover no-repeat;
+  }
+
+  .homeVideo {
+    display: none;
+  }
 }
