@@ -8,7 +8,11 @@ var logo = $('.logo');
 
 $(window).scroll(function() {
 	var pos = $(window).scrollTop();
+<<<<<<< HEAD
 	var opacity = 1 - (pos / 600);
+=======
+	var opacity = 1 - (pos / 400);
+>>>>>>> svganimation
 	$('.testing').text("p" + opacity);
 	
 
@@ -19,7 +23,11 @@ $(window).scroll(function() {
 	} else if (opacity < '0') {
 		logo.css({'opacity':0});
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> svganimation
 });
 
 
