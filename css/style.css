@@ -107,7 +107,7 @@
 }
 @keyframes flyin1 {
   0% {
-    transform: translate(0px, 10000px);
+    transform: translate(0px, 1000px);
     opacity: 0;
   }
   100% {
@@ -116,7 +116,7 @@
 }
 @keyframes flyin2 {
   0% {
-    transform: translate(0px, -10000px);
+    transform: translate(0px, -1000px);
     opacity: 0;
   }
   100% {
@@ -125,7 +125,7 @@
 }
 @keyframes flyin3 {
   0% {
-    transform: translate(10000px, 0px);
+    transform: translate(1000px, 0px);
     opacity: 0;
   }
   100% {
@@ -134,7 +134,7 @@
 }
 @keyframes flyin4 {
   0% {
-    transform: translate(-10000px, 0px);
+    transform: translate(-1000px, 0px);
     opacity: 0;
   }
   100% {
@@ -143,7 +143,7 @@
 }
 @keyframes flyin5 {
   0% {
-    transform: translate(20000px, 40000px);
+    transform: translate(2000px, 4000px);
     opacity: 0;
   }
   100% {
@@ -152,7 +152,7 @@
 }
 @keyframes flyin6 {
   0% {
-    transform: translate(-20000px, -40000px);
+    transform: translate(-2000px, -4000px);
     opacity: 0;
   }
   100% {
@@ -161,7 +161,7 @@
 }
 @keyframes flyin7 {
   0% {
-    transform: translate(20000px, -40000px);
+    transform: translate(2000px, -4000px);
     opacity: 0;
   }
   100% {
@@ -170,7 +170,7 @@
 }
 @keyframes flyin8 {
   0% {
-    transform: translate(-20000px, 40000px);
+    transform: translate(-2000px, 4000px);
     opacity: 0;
   }
   100% {
@@ -179,7 +179,7 @@
 }
 @keyframes flyin9 {
   0% {
-    transform: translate(40000px, 20000px);
+    transform: translate(4000px, 2000px);
     opacity: 0;
   }
   100% {
@@ -188,7 +188,7 @@
 }
 @keyframes flyin10 {
   0% {
-    transform: translate(40000px, -20000px);
+    transform: translate(4000px, -2000px);
     opacity: 0;
   }
   100% {
@@ -197,7 +197,7 @@
 }
 @keyframes flyin11 {
   0% {
-    transform: translate(-40000px, 20000px);
+    transform: translate(-4000px, 2000px);
     opacity: 0;
   }
   100% {
@@ -206,7 +206,7 @@
 }
 @keyframes flyin12 {
   0% {
-    transform: translate(-40000px, 20000px);
+    transform: translate(-4000px, 2000px);
     opacity: 0;
   }
   100% {
@@ -223,7 +223,7 @@
 .c6r3,
 .c5r4 {
   animation-name: flyin1;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c3r1,
@@ -231,7 +231,7 @@
 .c1r4,
 .c8r3 {
   animation-name: flyin2;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c1r3,
@@ -239,7 +239,7 @@
 .c2r6,
 .c7r5 {
   animation-name: flyin3;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c8r6,
@@ -247,7 +247,7 @@
 .c4r6,
 .c1r6 {
   animation-name: flyin4;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c1r2,
@@ -255,7 +255,7 @@
 .c5r3,
 .c8r1 {
   animation-name: flyin5;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c2r2,
@@ -263,7 +263,7 @@
 .c6r1,
 .c8r3 {
   animation-name: flyin6;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c8r4,
@@ -271,7 +271,7 @@
 .c2r3,
 .c1r4 {
   animation-name: flyin7;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c3r3,
@@ -280,7 +280,7 @@
 .c4r1,
 .c2r5 {
   animation-name: flyin8;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c7r4,
@@ -289,7 +289,7 @@
 .c2r1,
 .c4r2 {
   animation-name: flyin9;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c7r6,
@@ -298,7 +298,7 @@
 .c8r5,
 .c5r1 {
   animation-name: flyin10;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c4r3,
@@ -306,7 +306,7 @@
 .c8r2,
 .c6r5 {
   animation-name: flyin11;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .c3r2,
@@ -315,5 +315,5 @@
 .c7r3,
 .c6r4 {
   animation-name: flyin12;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }

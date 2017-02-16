@@ -15,62 +15,62 @@
 //Random Flyin Animation Start
 //1
 @keyframes flyin1 {
-	0% {transform:translate(0px, 10000px); opacity:0;}
+	0% {transform:translate(0px, 1000px); opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //2
 @keyframes flyin2 {
-	0% {transform:translate(0px, -10000px);opacity:0;}
+	0% {transform:translate(0px, -1000px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //3
 @keyframes flyin3 {
-	0% {transform:translate(10000px, 0px);opacity:0;}
+	0% {transform:translate(1000px, 0px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //4
 @keyframes flyin4 {
-	0% {transform:translate(-10000px, 0px);opacity:0;}
+	0% {transform:translate(-1000px, 0px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //5
 @keyframes flyin5 {
-	0% {transform:translate(20000px, 40000px);opacity:0;}
+	0% {transform:translate(2000px, 4000px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //6
 @keyframes flyin6 {
-	0% {transform:translate(-20000px, -40000px);opacity:0;}
+	0% {transform:translate(-2000px, -4000px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //7
 @keyframes flyin7 {
-	0% {transform:translate(20000px, -40000px);opacity:0;}
+	0% {transform:translate(2000px, -4000px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //8
 @keyframes flyin8 {
-	0% {transform:translate(-20000px, 40000px);opacity:0;}
+	0% {transform:translate(-2000px, 4000px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //9
 @keyframes flyin9 {
-	0% {transform:translate(40000px, 20000px);opacity:0;}
+	0% {transform:translate(4000px, 2000px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //10
 @keyframes flyin10 {
-	0% {transform:translate(40000px, -20000px);opacity:0;}
+	0% {transform:translate(4000px, -2000px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //11
 @keyframes flyin11 {
-	0% {transform:translate(-40000px, 20000px);opacity:0;}
+	0% {transform:translate(-4000px, 2000px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 //12
 @keyframes flyin12 {
-	0% {transform:translate(-40000px, 20000px);opacity:0;}
+	0% {transform:translate(-4000px, 2000px);opacity:0;}
 	100% {transform:translate(0,0);}
 }
 
