@@ -100,6 +100,7 @@
 @keyframes text {
   0% {
     transform: translate(-1000px, 0);
+    opacity: 0;
   }
   100% {
     transform: translate(0, 0);
@@ -214,7 +215,7 @@
   }
 }
 .text {
-  animation-duration: 1s;
+  animation-duration: 2.2s;
   animation-name: text;
 }
 
