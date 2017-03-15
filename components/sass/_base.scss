@@ -39,7 +39,6 @@
 }
 
 .section2 {
-	display:block;
 	height:2000px;
 	width:100%;
 	background-color: rgba(0, 0, 0, .5);
@@ -48,11 +47,7 @@
 
 #logoSvg {
 	position: absolute;
-	width:300px;
-	left:50%;
-	top:50%;
-	@include transform-origin(50% 50%);
-	@include translate(-50%, -50%); 
+	padding: 10px;
 	
 }
 

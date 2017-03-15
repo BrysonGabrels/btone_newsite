@@ -74,19 +74,28 @@
 	100% {transform:translate(0,0);}
 }
 
-
+@keyframes fade-in {
+	0% {opacity:0;}
+	90% {opacity:0;}
+	100% {opacity:1;}
+}
 
 
 //-----
+.animation-element {
+	animation-name:fade-in;
+	animation-duration:5s;
+}
 
+.cls-1 {
+	animation-delay:4s;
+}
 .text {
 	animation-duration:2.2s;
 	animation-name:text;
 	
 }
 
-
-.animate {
 
 .c1r1,
 .c3r6,
@@ -191,7 +200,7 @@
 }
 
 
-}
+
 
 
 
