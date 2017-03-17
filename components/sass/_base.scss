@@ -50,18 +50,20 @@
 	height:600px;
 }
 
-#homeBanner {
-	background-color: grey;
-	height:150px;
-}
+
 
 #homeLeft {
 	background-color:rgba(45, 45, 45, 0.95);
 	height:60vh;
+	font-family: $raleway;
+	color:rgba(255, 255, 255, 0.9);
 		h1 {
-			font-family: $raleway;
 			font-weight: 900;
-			color:rgba(255, 255, 255, 0.9);
+			font-size:8em;
+		}
+		h2 {
+			text-align: left;
+			font-size: 3em;
 		}
 
 }
@@ -80,7 +82,7 @@
 	div {
 		
 		
-		margin-top:-50px;
+		//margin-top:-50px;
 		a {
 			font-size:10em;
 			color: rgba(45, 45, 45, 0.95);
@@ -100,7 +102,10 @@
 	background-color: #fff;
 }
 
-.textWhite {
-	
-
+.inner {
+	padding-top:15px;
+	padding-left:25px;
+	padding-right:25px;
 }
+
+

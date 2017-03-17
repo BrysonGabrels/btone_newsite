@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>BRUSHTONE multimedia, production and design</title>
 
@@ -28,11 +28,17 @@
   <!--<div class="testing" style="position: fixed;top:0;left:0;width:50px;height:50px;background-color: #ffffff;">
   </div>-->
         <!-- Video Background Slider Fullscreen -->
-        <section class="homeSlider">
+        <section class="homeSlider hidden-xs">
             <video class="homeVideo" loop autoplay poster="img/bg-video-still2.jpg">
               <source src="https:/player.vimeo.com/external/203929328.hd.mp4?s=2790f6329b1fd6a06eb9f44cba5e8678e2ecd0d9&profile_id=119" type="video/mp4">
             </video>
             <img src="img/logo_text_wider.svg" alt="" class="logo img-responsive">
+        </section>
+
+
+        <!--Mobile Full Page -->
+        <section class="mobileSlider hidden-sm hidden-md hidden-lg">
+            <img src="img/logo_text_wide.svg" alt="" class="logo img-responsive">
         </section>  
         
         
@@ -41,12 +47,22 @@
               <div class="row">
                 
                 <div class="col-xs-12 col-md-6 text-center" id="homeLeft">
-                      <h1 class="textWhite">
-                        MEDIA \ MARKETING \ DESIGN
+                  <div class="inner">
+                    <div class="slideRight animation-element">
+                        <h1 class="textWhite">
+                        WHAT WE DO
                       </h1>
+                    </div>
+                    <div class="slideRight animation-element">
+                      <h2>
+                        This is where we would put a short description of what we do.  Which is everything.  I really don't know what else to say here but definitely something.  Yeah. Also, maybe a different font for copy? Raleway looks dope for titles though.
+                      </h2>
+                    </div>
+                  </div>    
                 </div>
                 <div class="col-xs-12 col-md-6 text-center" id="homeRight">
-                      <h1>
+                    <div class="slideLeft animation-element">
+                        <h1>
                           SEE OUR WORK
                       </h1>
                       <div id="arrow">
@@ -54,6 +70,9 @@
                               &#8595;
                           </a>
                       </div>
+                      
+                    </div>
+                      
                      
                 </div>
                 <div class="col-xs-12" id="filler">

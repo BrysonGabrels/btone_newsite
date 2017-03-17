@@ -22,7 +22,7 @@ $(window).scroll(function() {
 });
 
 
-
+//Fire animation when containing element is in view
 var $animation_elements = $('.animation-element');
 var $window = $(window);
 
@@ -49,6 +49,10 @@ function check_if_in_view() {
 
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
+
+
+
+
 
 
 

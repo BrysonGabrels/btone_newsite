@@ -1,9 +1,67 @@
+
+//Medium devices and down
 @media (max-width: 767px) {
-	.homeSlider {
-		background: url('../img/bg-video-still2.jpg') center center / cover no-repeat;
+	.mobileSlider {
+		background: url('/img/bg-video-still2.jpg') center center / cover no-repeat;
+		-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
+		display:block;
+		position:fixed;
+		height:100vh;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		overflow: hidden;
+		z-index: -100;
 	}
 
-	.homeVideo {
-		display:none;
+	.underSlider {
+		//margin-top:0;
 	}
+
+
+	#homeLeft {
+	background-color:rgba(45, 45, 45, 1);
+	height:50vh;
+	font-family: $raleway;
+	color:rgba(255, 255, 255, 0.9);
+	width:100%;
+		h1 {
+			font-weight: 900;
+			
+			
+		}
+
+	}
+
+	#homeRight {
+		position: relative;
+		background-color:rgba(255, 255, 255, 1);
+		height:50vh;
+		width:100%;
+		font-family: $raleway;
+
+		h1 {
+			font-weight: 900;
+			font-size:6em;
+		}
+
+		div {
+		
+		
+			
+			a {
+				font-size:10em;
+				color: rgba(45, 45, 45, 0.95);
+				text-decoration: none;
+			}
+		}
+	}
+
+
+
+
 }
