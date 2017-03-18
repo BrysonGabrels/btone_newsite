@@ -28,14 +28,16 @@
 	height:50vh;
 	font-family: $raleway;
 	color:rgba(255, 255, 255, 0.9);
-	width:100%;
 		h1 {
 			font-weight: 900;
-			
-			
+			font-size:3em;
+		}
+		h2 {
+			text-align: left;
+			font-size: 1.5em;
 		}
 
-	}
+}
 
 	#homeRight {
 		position: relative;
