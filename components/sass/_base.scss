@@ -108,4 +108,24 @@
 	padding-right:25px;
 }
 
+.videoOverlay {
+	position:absolute;
+	height:50px;
+	width:50px;
+	margin-top:50%;
+	margin-left:50%;
+	background-color: red;
+	z-index:1000;
+}
+
+.videoReel {
+	position:absolute;
+	
+	height:100vh;
+	z-index:-100;
+}
+
+.test123 {
+	position: relative;
+}
 

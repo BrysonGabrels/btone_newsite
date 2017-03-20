@@ -43,44 +43,55 @@
         
         
         <section>
-            <div class="container-fluid underSlider">
-              <div class="row">
-                
-                <div class="col-xs-12 col-md-6 text-center" id="homeLeft">
-                  <div class="inner">
-                    <div class="slideRight animation-element">
-                        <h1 class="textWhite">
-                        WHAT WE DO
-                      </h1>
-                    </div>
-                    <div class="slideRight animation-element">
-                      <h2>
-                        This is where we would put a short description of what we do.  Which is everything.  I really don't know what else to say here but definitely something.  Yeah. Also, maybe a different font for copy? Raleway looks dope for titles though.
-                      </h2>
-                    </div>
-                  </div>    
-                </div>
-                <div class="col-xs-12 col-md-6 text-center" id="homeRight">
-                    <div class="slideLeft animation-element">
-                        <h1>
-                          SEE OUR WORK
-                      </h1>
-                      <div id="arrow">
-                          <a href="//www.brushtone.com">
-                              &#8595;
-                          </a>
-                      </div>
-                      
-                    </div>
-                      
-                     
-                </div>
-                <div class="col-xs-12" id="filler">
+              <div class="container-fluid underSlider">
+                  <div class="row">
                     
-                </div>
+                      <div class="col-xs-12 col-md-6 text-center" id="homeLeft">
+                        <div class="inner">
+                          <div class="slideRight animation-element">
+                              <h1 class="textWhite">
+                              WHAT WE DO
+                            </h1>
+                          </div>
+                          <div class="slideRight animation-element">
+                            <h2>
+                              This is where we would put a short description of what we do.  Which is everything.  I really don't know what else to say here but definitely something.  Yeah. Also, maybe a different font for copy? Raleway looks dope for titles though.
+                            </h2>
+                          </div>
+                        </div>    
+                      </div>
+                      <div class="col-xs-12 col-md-6 text-center" id="homeRight">
+                          <div class="slideLeft animation-element">
+                              <h1>
+                                SEE OUR WORK
+                            </h1>
+                            <div id="arrow">
+                                <a href="//www.brushtone.com">
+                                    &#8595;
+                                </a>
+                            </div>
+                            
+                          </div>
+                            
+                           
+                    </div>
+                   
+                  </div>
+              </div>
+            
+        </section>
+        <section>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="test123" onclick="playPause()">
+                <video class="videoReel" id="vidReel" loop poster="img/bg-video-still2.jpg">
+              <source src="https:/player.vimeo.com/external/203929328.hd.mp4?s=2790f6329b1fd6a06eb9f44cba5e8678e2ecd0d9&profile_id=119" type="video/mp4">
+            </video>
+            <div class="videoOverlay">
+            </div>
               </div>
             </div>
-            
+          </div>
         </section>
 
 
@@ -90,7 +101,18 @@
 
 
 
+<script>
+  var myVideo = document.getElementById("vidReel"); 
 
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
+
+    
+}; 
+</script>
 
 
      <!-- Latest compiled and minified JavaScript -->
