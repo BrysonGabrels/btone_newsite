@@ -171,18 +171,42 @@ $(".playButton").hide();
 
 });
 
-$("video").prop('muted', false);
+
+
+$("#playBtn").hide();
+$("#muteBtn").hide();
+$("#videoReel").prop('muted', false);
 
 $("#mute").click( function (){
     if( $("#videoReel").prop('muted'))
     {
         $("#videoReel").prop('muted', false);
-    }
+        $("#unmuteBtn").show();
+        $("#muteBtn").hide();
+    } else {
 
-    else {
     $("#videoReel").prop('muted', true);
+    $("#unmuteBtn").hide();
+    $("#muteBtn").show();
+
     }
 
+});
+
+
+$("#play").click(function() {
+    var video = $("#videoReel").get(0);
+
+    if ( video.paused ) {
+        $("#playBtn").show();
+        $("#pauseBtn").hide();
+    } else {
+        
+        $("#playBtn").hide();
+        $("#pauseBtn").show();
+    }
+
+    return false;
 });
 },{"jquery":2,"mustache":3}],2:[function(require,module,exports){
 /*!

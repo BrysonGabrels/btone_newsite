@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
-
+<script src="https://use.fontawesome.com/f5c0916588.js"></script>
 
 
 
@@ -45,7 +45,7 @@
         <section>
               <div class="container-fluid underSlider">
                   <div class="row">
-                    <div id="wrapper">
+                    
                       <div class="col-xs-12 col-md-6 text-center" id="homeLeft">
                         <div class="inside">
                           <div class="slideRight animation-element">
@@ -76,7 +76,7 @@
                            
                     </div>
                    
-                  </div>
+                  
                 </div>
               </div>
             
@@ -95,13 +95,36 @@
         </video>
        
         <div class="inner2" onclick="playPause();">
+            <i class="fa fa-play-circle-o" id="largePlay" aria-hidden="true"></i>
+        </div>
+        <div class="controls">
+            <div id="play" onclick="playPause();">
+                <span id="playBtn">
+                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                </span>
+                <span id="pauseBtn">
+                    <i class="fa fa-pause-circle-o" aria-hidden="true"></i>
+                </span>
+            </div>
+            <div id="mute">
+                <span id="muteBtn">
+                    <i class="fa fa-volume-off" aria-hidden="true"></i>      
+                </span>
+                <span id="unmuteBtn">
+                    <i class="fa fa-volume-up" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+        </div>
+        </section>
+
+        <section>
+            <div class="container-fluid" id="contact">
+                <div class="row">
+                    
+                </div>
+            </div>
           
-        </div>
-        <div class="playButton">
-            <div id="play" onclick="playPause();"></div>
-            <div id="mute"></div>
-        </div>
-        </div>
         </section>
 
 

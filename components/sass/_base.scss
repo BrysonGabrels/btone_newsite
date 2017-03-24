@@ -56,7 +56,7 @@
 
 #homeLeft {
 	background-color:rgba(45, 45, 45, 0.95);
-	height:100%;
+	height:100vh;
 	font-family: $raleway;
 	color:rgba(255, 255, 255, 0.9);
 		h1 {
@@ -73,7 +73,7 @@
 #homeRight {
 	position: relative;
 	background-color:rgba(255, 255, 255, 0.9);
-	height:100%;
+	height:100vh;
 	font-family: $raleway;
 
 	h1 {
@@ -115,6 +115,7 @@
     height:auto;
     max-width:100vw;
     position: relative;
+    margin-bottom:-5px;
     
 
 }
@@ -138,28 +139,32 @@
     width:100px;
     left:50%;
     top:50%;
-    background-color:rgba(0, 0, 0, 0.67);
+    //background-color:rgba(0, 0, 0, 0.67);
+    color:#ffffff;
     cursor: pointer;
 }
 
-.playButton {
+.controls {
     position:absolute;
     bottom:0px;
     cursor: pointer;
-    background-color: red;
+    color:#ffffff;
+    padding:5px;
+    font-size: 24px;
+    
 }
 
 #play {
 	height:30px;
 	width:30px;
-	background-color: yellow;
+	
 	display:inline-block;
 }
 
 #mute {
 	height:30px;
 	width:30px;
-	background-color: blue;
+	
 	display: inline-block;
 }
 
@@ -167,4 +172,15 @@
     width:100vw;
 }
 
+
+#contact {
+	height:600px;
+	background-color: #000;
+}
+
+#largePlay {
+	width:100%;
+	height:100%;
+	font-size: 10em;
+}
 

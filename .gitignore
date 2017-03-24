@@ -4,3 +4,4 @@ node_modules
 .sass-cache
 builds/**/images/*
 bower_components
+builds/development/drone.mp4
