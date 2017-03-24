@@ -57,14 +57,16 @@ $window.trigger('scroll');
 
 
 
+var myVideo = document.getElementById("vidReel"); 
 
-function homeVid() {
-	$('.videoBg').fadeOut();
-}
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
 
-
-setTimeout(homeVid, 5000);
-
+    
+};
 
 
 var pixgrid = function() {
@@ -159,14 +161,29 @@ $(function() {
   }); //getJSON
   
 }); //function
-var myVideo = document.getElementById("vidReel"); 
+$(".playButton").hide();
 
-function playPause() { 
-    if (myVideo.paused) 
-        myVideo.play(); 
-    else 
-        myVideo.pause(); 
-}; 
+  $( ".inner2" ).click(function( event ) {
+  event.preventDefault();
+  $( ".inner" ).fadeOut(1000);
+  $(".inner2").fadeOut(1000);
+  $(".playButton").fadeIn(1000);
+
+});
+
+$("video").prop('muted', false);
+
+$("#mute").click( function (){
+    if( $("#videoReel").prop('muted'))
+    {
+        $("#videoReel").prop('muted', false);
+    }
+
+    else {
+    $("#videoReel").prop('muted', true);
+    }
+
+});
 },{"jquery":2,"mustache":3}],2:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.1.1

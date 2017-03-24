@@ -1,11 +1,13 @@
 
 
+var myVideo = document.getElementById("vidReel"); 
 
-function homeVid() {
-	$('.videoBg').fadeOut();
-}
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
 
-
-setTimeout(homeVid, 5000);
-
+    
+};
 

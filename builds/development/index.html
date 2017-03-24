@@ -45,9 +45,9 @@
         <section>
               <div class="container-fluid underSlider">
                   <div class="row">
-                    
+                    <div id="wrapper">
                       <div class="col-xs-12 col-md-6 text-center" id="homeLeft">
-                        <div class="inner">
+                        <div class="inside">
                           <div class="slideRight animation-element">
                               <h1 class="textWhite">
                               WHAT WE DO
@@ -77,42 +77,54 @@
                     </div>
                    
                   </div>
+                </div>
               </div>
             
         </section>
+
+
+
         <section>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="test123" onclick="playPause()">
-                <video class="videoReel" id="vidReel" loop poster="img/bg-video-still2.jpg">
-              <source src="https:/player.vimeo.com/external/203929328.hd.mp4?s=2790f6329b1fd6a06eb9f44cba5e8678e2ecd0d9&profile_id=119" type="video/mp4">
-            </video>
-            <div class="videoOverlay">
-            </div>
-              </div>
-            </div>
-          </div>
+            <div class="outer">
+         <div class="inner" id="overlay">
+          <h1 class="text-center">CHECK THIS SHIT OUT</h1>
+        </div>
+        <video id="videoReel" poster="img/bg-video-still2.jpg">
+          <source src="drone.mp4" type="video/mp4">
+          
+        </video>
+       
+        <div class="inner2" onclick="playPause();">
+          
+        </div>
+        <div class="playButton">
+            <div id="play" onclick="playPause();"></div>
+            <div id="mute"></div>
+        </div>
+        </div>
         </section>
-
-
-
 
 
 
 
 
 <script>
-  var myVideo = document.getElementById("vidReel"); 
+var myVideo = document.getElementById("videoReel");
+  
 
-function playPause() { 
+  function playPause() { 
     if (myVideo.paused) 
-        myVideo.play(); 
+        myVideo.play();
+
     else 
         myVideo.pause(); 
 
     
-}; 
+};
+
+
 </script>
+
 
 
      <!-- Latest compiled and minified JavaScript -->
